@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Mayank Yadav | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101010;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      padding: 25px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 65px 20px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 7vw, 64px);
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #bbbbbb;
+      line-height: 1.7;
+    }
+
+    .hero {
+      padding: 110px 20px;
+    }
+
+    .highlight {
+      color: #ff8533;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 25px;
+      background: #ff8533;
+      color: #111;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #202020;
+      padding: 30px;
+      border-radius: 12px;
+      width: 250px;
+    }
+
+    footer {
+      padding: 30px;
+      background: #181818;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>MY PORTFOLIO.</nav>
+
+  <section class="hero">
+    <h1>Hello, I'm <span class="highlight">
+      Mayank Yadav
+    </span></h1>
+
+    <h2>AI Assistant & Graphic Designer</h2>
+
+    <p>
+      I create AI advertisements, product visuals,
+      graphic designs and creative digital experiences.
+    </p>
+
+    <a href="#work" class="btn">Explore My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a creative professional combining
+      artificial intelligence and graphic design
+      to create impactful visual experiences.
+    </p>
+  </section>
+
+  <section id="work">
+    <h2>What I Do</h2>
+
+    <div class="cards">
+      <div class="card">AI Advertisements</div>
+      <div class="card">Graphic Design</div>
+      <div class="card">AI Product Photoshoots</div>
+      <div class="card">Video Editing</div>
+      <div class="card">Brand Identity</div>
+      <div class="card">Prompt Engineering</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Work Together</h2>
+
+    <p>Have a creative project in mind?</p>
+
+    <a class="btn"
+       href="mailto:mayankcreation3@gmail.com">
+       Contact Me
+    </a>
+  </section>
+
+  <footer>
+    © 2026 Mayank Yadav. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
